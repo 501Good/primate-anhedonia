@@ -1,3 +1,3 @@
-# PRIMATE Exaplain
+# PRIMATE Anhedonia
 
 We are still preparing the procedure of data sharing...
