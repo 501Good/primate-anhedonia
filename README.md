@@ -1,4 +1,4 @@
-# PRIMATE Anhedonia
+# Reddit Anhedonia
 
 The dataset and all the instructions are available here: https://huggingface.co/datasets/tartuNLP/reddit-anhedonia
 
