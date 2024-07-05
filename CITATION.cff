@@ -1,0 +1,63 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Reddit Anhedonia
+message: >-
+  If you use this dataset, please consider citing our paper:
+  Kirill Milintsevich, Kairit Sirts, and Gaël Dias. 2024.
+  Your Model Is Not Predicting Depression Well And That Is
+  Why: A Case Study of PRIMATE Dataset. In Proceedings of
+  the 9th Workshop on Computational Linguistics and Clinical
+  Psychology (CLPsych 2024), pages 166–171, St. Julians,
+  Malta. Association for Computational Linguistics.
+type: dataset
+authors:
+  - given-names: Kirill
+    family-names: Milintsevich
+    email: milintsevich@gmail.com
+    affiliation: Université de Caen Normandie
+    orcid: 'https://orcid.org/0000-0001-9253-1682'
+  - given-names: Kairit
+    family-names: Sirts
+    affiliation: University of Tartu
+    orcid: 'https://orcid.org/0000-0001-7388-2583'
+identifiers:
+  - type: url
+    value: 'https://aclanthology.org/2024.clpsych-1.13/'
+    description: Paper describing the dataset
+repository-code: 'https://huggingface.co/datasets/tartuNLP/reddit-anhedonia'
+abstract: >-
+  Focusing on the PRIMATE dataset, our study reveals
+  concerns regarding annotation validity, particularly for
+  the lack of interest or pleasure symptom. Through
+  re-annotation by a mental health professional, we
+  introduce finer labels and textual spans as evidence,
+  identifying a notable number of false positives. Our
+  refined annotations offer a higher-quality test set for
+  anhedonia detection. This study underscores the necessity
+  of addressing annotation quality issues in mental health
+  datasets, advocating for improved methodologies to enhance
+  NLP model reliability in mental health assessments.
+license: CC-BY-4.0
+commit: 966159f55ea554b8a99af64930ebe56003c24861
+version: v1.0
+date-released: '2024-07-01'
+references:
+  - authors:
+      - family-names: Gupta
+        given-names: Shrey
+      - family-names: Agarwal
+        given-names: Anmol
+      - family-names: Gaur
+        given-names: Manas
+      - family-names: Roy
+        given-names: Kaushik
+      - family-names: Narayanan
+        given-names: Vignesh
+      - family-names: Kumaraguru
+        given-names: Ponnurangam
+    date-released: "2022-05-30"
+    repository-code: "https://github.com/primate-mh/Primate2022"
+    title: "PRIMATE 2022 Dataset"
+    type: software
